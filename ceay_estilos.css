@@ -25,6 +25,11 @@
 	color:white;
 }
 
+.link{
+	background-color:#8FAADC;
+	color:white;
+}
+
 
 /*  Centro contenedor */
 .SegBloque
@@ -32,6 +37,7 @@
        width: 100%;
        height:420px;
        background:white;
+       margin-top: -20px;
    }
 
 .h1
@@ -63,6 +69,13 @@
     padding-top:10px;
     padding-left: 10px;
   }
+  
+#mapa{
+	height: 420px; 
+	border-style: none; 
+	border-color: inherit; 
+	width: 100%;
+}
 
 /* Pie bloque */ 
 
