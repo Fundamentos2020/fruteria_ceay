@@ -90,6 +90,18 @@
 	border-spacing: 15px;
 }
 
+.tablaR{
+	position:relative;
+	margin-top: 50px;
+	border-spacing: 15px;
+	left: 550px;
+}
+
+.tablaR ,td{
+	text-align:left;
+}
+
+
 .tablaC ,td{
 	position:relative;
 	text-align:center;
