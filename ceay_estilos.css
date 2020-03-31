@@ -81,7 +81,7 @@
 .tabla{
 	position:relative;
 	margin-top: 50px;
-	border-spacing: 15px;
+	border-spacing: 30px;
 }
 
 .tablaC{
@@ -113,6 +113,18 @@ tabla ,td{
 	position:relative;
 	text-align:center;
 	top: 10px;
+}
+
+.compras{
+	position:relative;
+	left: 1300px;
+	top: 70px;
+	font-size: 30px;
+	color:white;
+}
+
+.compras:hover{
+	color:blue;
 }
 
 /* Pie bloque */ 
