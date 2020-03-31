@@ -27,6 +27,12 @@
 }
 
 
+.compras:hover{
+	color:#5B9BD5;
+}
+
+
+
 /*  Centro contenedor */
 .SegBloque
    {
@@ -97,6 +103,26 @@
 	left: 550px;
 }
 
+.tablaCar{
+	position:relative;
+	border-spacing: 15px;
+	right: 200px;
+}
+
+
+.tablaCar ,td{
+	position:relative;
+	text-align:right;
+}
+
+.eliminarC{
+	position:relative;
+	color:red;
+	font-size: 30px;
+	top: -80px;
+
+}
+
 .tablaR ,td{
 	text-align:left;
 }
@@ -121,10 +147,6 @@ tabla ,td{
 	top: 70px;
 	font-size: 30px;
 	color:white;
-}
-
-.compras:hover{
-	color:blue;
 }
 
 /* Pie bloque */ 
