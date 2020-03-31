@@ -109,6 +109,12 @@
 	right: 200px;
 }
 
+.tablaU{
+	position:relative;
+	border-spacing: 15px;
+	top: -200px;
+}
+
 
 .tablaCar ,td{
 	position:relative;
