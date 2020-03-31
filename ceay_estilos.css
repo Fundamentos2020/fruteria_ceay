@@ -3,6 +3,7 @@
 	padding: 10px;
 	color:white;
 	background-color:#4472C4;
+	position: stick;
 }
 
 #menu li{
@@ -25,17 +26,12 @@
 	color:white;
 }
 
-.link{
-	background-color:#8FAADC;
-	color:white;
-}
-
 
 /*  Centro contenedor */
 .SegBloque
    {
        width: 100%;
-       height:420px;
+       height:auto;
        background:white;
        margin-top: -20px;
    }
@@ -75,6 +71,23 @@
 	border-style: none; 
 	border-color: inherit; 
 	width: 100%;
+}
+
+.fruta{
+	width: 275px;
+	height: 183px;
+}
+
+.tabla{
+	position:relative;
+	margin-top: 50px;
+	border-spacing: 15px;
+}
+
+td{
+	position:relative;
+	text-align:center;
+	top: 10px;
 }
 
 /* Pie bloque */ 
