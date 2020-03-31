@@ -84,7 +84,20 @@
 	border-spacing: 15px;
 }
 
-td{
+.tablaC{
+	position:relative;
+	margin-top: 50px;
+	border-spacing: 15px;
+}
+
+.tablaC ,td{
+	position:relative;
+	text-align:center;
+	top: 10px;
+}
+
+
+tabla ,td{
 	position:relative;
 	text-align:center;
 	top: 10px;
