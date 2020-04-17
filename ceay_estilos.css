@@ -1,21 +1,32 @@
-﻿
+﻿html{
+	font-family: Arial;
+}
+
+.mensaje{
+	display: none;
+}
+
+.logo{
+	width: 200px;
+	height: 100px;
+}
 
 #menu{
 	padding: 10px;
-	color:white;
-	background-color:#4472C4;
+	color:rgb(255, 255, 255);
+	background-color: orange;
 	position: stick;
 }
 
 #menu li{
 	position:relative;
 	display:inline-block;
-	border: 0.1em solid #8FAADC;
+	border: 0.1em solid rgb(255, 208, 0);
 	padding: 0px;
 	text-align:center;
 	width: 100px;
 	height: 40px;
-	background-color:#8FAADC;
+	background-color:orange;
 	border-radius: 12px;
 	margin-left: 10px;
 	display-middle: 10px;
@@ -23,13 +34,13 @@
 }
 
 #menu li:hover{
-	background-color:#5B9BD5;
+	background-color:rgb(255, 140, 0);
 	color:white;
 }
 
 
 .compras:hover{
-	color:#5B9BD5;
+	color:rgb(255, 140, 0);
 }
 
 
@@ -161,8 +172,8 @@ tabla ,td{
 .Pie
 {
     width: 100%;
-    height: 200px;
-    background-color:#4472C4;
+    height: 80px;
+    background-color:orange;
 }
 
 .Final
@@ -178,7 +189,7 @@ tabla ,td{
 .redes
 {
     position:relative;
-    top:80px;
+    top:25px;
     right:0px;
     left: 0px;
 }
@@ -192,3 +203,36 @@ tabla ,td{
         font-size: 30px;
 }
 
+@media (max-width:1030px)
+{
+	#menu{
+		display: none;
+	}
+	
+	.SegBloque{
+		display: none;
+   }
+
+   .Pie{
+	   display: none;
+   }
+
+   .logo{
+	   position: absolute;
+	   top: 25%;
+	   left: 23%;
+	   width: 50%;
+	   height: 50%;
+	}
+
+	.login{
+		display: none;
+	}
+
+	.mensaje{
+		display: inline;
+		position: absolute;
+		left: 25%;
+	   	top: 75%;
+	}
+}
