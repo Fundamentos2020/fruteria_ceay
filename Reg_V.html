@@ -6,9 +6,10 @@
 <title>Fruteria_CEAY</title>
 <link rel="stylesheet" href="ceay_estilos.css" type="text/css">
 <script src="a076d05399.js"></script>
+<script src="app.js"></script>
 </head>
 
-<body>
+<body  onload="inicio_Verdura(1)">
 	<div>
 		<div style=" font-size:30px; text-align:right">	
 			<a href="index.html" style="position:relative; right:150px; top:50px"> Salir </a>
@@ -22,141 +23,13 @@
 		<li onclick="window.location.href = 'Reg_I.html';">Inicio</li>
 		<li onclick="window.location.href = 'Reg_L.html';">Localizacion</li>
 		<li onclick="window.location.href = 'Reg_F.html';">Frutas</li>
-		<li onclick="window.location.href = 'Reg_V.html';" style="background-color:rgb(255, 140, 0)">Verduras</li>
+		<li onclick="window.location.href = 'Reg_V.html';" style="background-color:#5B9BD5">Verduras</li>
 		<li onclick="window.location.href = 'Reg_C.html';">Contacto</li>
 		<li onclick="window.location.href = 'Reg_Cm.html';">Comentarios</li>
 	</ul>
 <div class="SegBloque">
-     <table style="width:100%" class="tabla">
-		 <tr>
-		    <th><img class="fruta" src="img/brocoli.jfif"></th>
-		    <th><img class="fruta" src="img/cebolla.webp"></th>
-		    <th><img class="fruta" src="img/jitomae.jfif"></th>
-		    <th><img class="fruta" src="img/lechuga.jpg"></th>
-		  </tr>
-		  <tr>
-		    <td>
-		    Precio: $16kg. 
-		    </td>
-		    <td>
-		    Precio: $10kg.
-		    </td>
-			<td>
-		    Precio: $20kg.
-		    </td>
-			<td>
-		    Precio: $10pz.
-		    </td>
-		  </tr>
-		  <tr>
-		    <td>
-		    Cantidad:
-		    <input type="number" name="Cantidad" min="1" max="100" value="1">
-		    kg.
-		    <br>
-		    <br>
-		    <input type="submit" style="margin-bottom: 50px" value="Agregar">
-		    </td>
-		    <td>
-		    Cantidad:
-		    <input type="number" name="Cantidad" min="1" max="100" value="1">
-		    kg.
-		    <br>
-		    <br>
-		    <input type="submit" style="margin-bottom: 50px" value="Agregar">
-		    </td>
-			<td>
-		    Cantidad:
-		    <input type="number" name="Cantidad" min="1" max="100" value="1">
-		    kg.
-		    <br>
-		    <br>
-		    <input type="submit" style="margin-bottom: 50px" value="Agregar">
-		    </td>
-			<td>
-		    Cantidad:
-		    <input type="number" name="Cantidad" min="1" max="100" value="1">
-		    kg.
-		    <br>
-		    <br>
-		    <input type="submit" style="margin-bottom: 50px" value="Agregar">
-		    </td>
-		  </tr>
-		  
-		   <tr>
-		    <th><img class="fruta" src="img/papa.jpg"></th>
-		    <th><img class="fruta" src="img/poblano.jpg"></th>
-		    <th><img class="fruta" src="img/serrano.jfif"></th>
-		    <th><img class="fruta" src="img/tomatillo.jfif"></th>
-		  </tr>
-		  <tr>
-		    <td>
-		    Precio: $15kg. 
-		    </td>
-		    <td>
-		    Precio: $28kg.
-		    </td>
-			<td>
-		    Precio: $32kg.
-		    </td>
-		    <td>
-		    Precio: $23kg.
-		    </td>
-		  </tr>
-		  <tr>		 
-		    <td>
-		    Cantidad:
-		    <input type="number" name="Cantidad" min="1" max="100" value="1">
-		    kg.
-		    <br>
-		    <br>
-		    <input type="submit" style="margin-bottom: 50px" value="Agregar">
-		    </td>
-		    <td>
-		    Cantidad:
-		    <input type="number" name="Cantidad" min="1" max="100" value="1">
-		    kg.
-		    <br>
-		    <br>
-		    <input type="submit" style="margin-bottom: 50px" value="Agregar">
-		    </td>
-			<td>
-		    Cantidad:
-		    <input type="number" name="Cantidad" min="1" max="100" value="1">
-		    kg.
-		    <br>
-		    <br>
-		    <input type="submit" style="margin-bottom: 50px" value="Agregar">
-		    </td>
-		    <td>
-		    Cantidad:
-		    <input type="number" name="Cantidad" min="1" max="100" value="1">
-		    kg.
-		    <br>
-		    <br>
-		    <input type="submit" style="margin-bottom: 50px" value="Agregar">
-		    </td>
-		  </tr>
-		    
-		  <tr>
-		    <th><img class="fruta" src="img/zanahoria.jpg"></th>
-		  </tr>
-		  <tr>
-		    <td>
-		    Precio: $10kg. 
-		    </td>
-		  </tr>
-		  <tr>
-		    <td>
-		    Cantidad:
-		    <input type="number" name="Cantidad" min="1" max="100" value="1">
-		    kg.
-		    <br>
-		    <br>
-		    <input type="submit" style="margin-bottom: 50px" value="Agregar">
-		    <br>
-    	  </tr>
-
+     <table style="width:100%" class="tabla" id="json">
+		 
 	</table>
 </div>
 	

@@ -1,32 +1,59 @@
-﻿html{
-	font-family: Arial;
+﻿@media (min-width: 0px){
+	.col-s-1{width: 8.33%;}
+	.col-s-2{width: 16.66%;}
+	.col-s-3{width: 25%;}
+	.col-s-4{width: 33.33%;}
+	.col-s-5{width: 41.66%;}
+	.col-s-6{width: 50%;}
+	.col-s-7{width: 58.33%;}
+	.col-s-8{width: 66.66%;}
+	.col-s-9{width: 75%;}
+	.col-s-11{width: 83.33%;}
+	.col-s-11{width: 91.66%;}
+	.col-s-12{ width: 100%;}
+	
 }
 
-.mensaje{
-	display: none;
+@media (min-width: 768px){
+	.col-m-1{width: 8.33%;}
+	.col-m-2{width: 16.66%;}
+	.col-m-3{width: 25%;}
+	.col-m-4{width: 33.33%;}
+	.col-m-5{width: 41.66%;}
+	.col-m-6{width: 50%;}
+	.col-m-7{width: 58.33%;}
+	.col-m-8{width: 66.66%;}
+	.col-m-9{width: 75%;}
+	.col-m-11{width: 83.33%;}
+	.col-m-11{width: 91.66%;}
+	.col-m-12{ width: 100%;}
+	
 }
 
-.logo{
-	width: 200px;
-	height: 100px;
+
+[class*="col-"]{
+    float: left;
 }
 
+
+
+/*/////////////////////////////////////////*/
 #menu{
 	padding: 10px;
-	color:rgb(255, 255, 255);
-	background-color: orange;
+	color:white;
+	background-color:#4472C4;
 	position: stick;
 }
 
 #menu li{
 	position:relative;
 	display:inline-block;
-	border: 0.1em solid rgb(255, 208, 0);
+	border: 0.1em solid #8FAADC;
 	padding: 0px;
 	text-align:center;
 	width: 100px;
 	height: 40px;
-	background-color:orange;
+	background-color:#8FAADC;
 	border-radius: 12px;
 	margin-left: 10px;
 	display-middle: 10px;
@@ -34,13 +61,13 @@
 }
 
 #menu li:hover{
-	background-color:rgb(255, 140, 0);
+	background-color:#5B9BD5;
 	color:white;
 }
 
 
 .compras:hover{
-	color:rgb(255, 140, 0);
+	color:#5B9BD5;
 }
 
 
@@ -48,6 +75,8 @@
 /*  Centro contenedor */
 .SegBloque
    {
+	   position: relative;
+	   top: 20px;
        width: 100%;
        height:auto;
        background:white;
@@ -92,6 +121,7 @@
 }
 
 .fruta{
+	position: relative;
 	width: 275px;
 	height: 183px;
 }
@@ -171,9 +201,11 @@ tabla ,td{
 
 .Pie
 {
+	position: relative;
+	top: 50px;
     width: 100%;
-    height: 80px;
-    background-color:orange;
+    height: 200px;
+    background-color:#4472C4;
 }
 
 .Final
@@ -189,7 +221,7 @@ tabla ,td{
 .redes
 {
     position:relative;
-    top:25px;
+    top:80px;
     right:0px;
     left: 0px;
 }
@@ -203,36 +235,3 @@ tabla ,td{
         font-size: 30px;
 }
 
-@media (max-width:1030px)
-{
-	#menu{
-		display: none;
-	}
-	
-	.SegBloque{
-		display: none;
-   }
-
-   .Pie{
-	   display: none;
-   }
-
-   .logo{
-	   position: absolute;
-	   top: 25%;
-	   left: 23%;
-	   width: 50%;
-	   height: 50%;
-	}
-
-	.login{
-		display: none;
-	}
-
-	.mensaje{
-		display: inline;
-		position: absolute;
-		left: 25%;
-	   	top: 75%;
-	}
-}

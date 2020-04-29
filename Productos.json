@@ -1,0 +1,102 @@
+{
+    "fruta": [
+        {
+            "id": 0,
+            "nombre": "Naranaja",
+            "precio": "9.00",
+            "imagen": "img/naranja.jpg"
+        },
+        {
+            "id": 1,
+            "nombre": "Sandia",
+            "precio": "9.00",
+            "imagen": "img/sandia.jfif"
+        },
+        {
+            "id": 2,
+            "nombre": "Piña",
+            "precio": "9.00",
+            "imagen": "img/piña.jfif"
+        },
+        {
+            "id": 3,
+            "nombre": "Uva",
+            "precio": "9.00",
+            "imagen": "img/uva.jfif"
+        },
+        {
+            "id": 4,
+            "nombre": "Mango",
+            "precio": "9.00",
+            "imagen": "img/mango.jfif"
+        },
+        {
+            "id": 5,
+            "nombre": "Manzana",
+            "precio": "9.00",
+            "imagen": "img/manzana.jfif"
+        },
+        {
+            "id": 6,
+            "nombre": "Platano",
+            "precio": "9.00",
+            "imagen": "img/platano.jpg"
+        }
+    ],
+    "verdura": [
+        {
+            "id": 0,
+            "nombre": "Brocoli",
+            "precio": "9.00",
+            "imagen": "img/brocoli.jfif"
+        },
+        {
+            "id": 1,
+            "nombre": "Cebolla",
+            "precio": "9.00",
+            "imagen": "img/cebolla.webp"
+        },
+        {
+            "id": 2,
+            "nombre": "Jitomate",
+            "precio": "9.00",
+            "imagen": "img/jitomae.jfif"
+        },
+        {
+            "id": 3,
+            "nombre": "Lechuga",
+            "precio": "9.00",
+            "imagen": "img/lechuga.jpg"
+        },
+        {
+            "id": 4,
+            "nombre": "Papa",
+            "precio": "9.00",
+            "imagen": "img/papa.jpg"
+        },
+        {
+            "id": 5,
+            "nombre": "Poblano",
+            "precio": "9.00",
+            "imagen": "img/poblano.jpg"
+        },
+        {
+            "id": 6,
+            "nombre": "Serrano",
+            "precio": "9.00",
+            "imagen": "img/serrano.jfif"
+        },
+        {
+            "id": 7,
+            "nombre": "Tomatillo",
+            "precio": "9.00",
+            "imagen": "img/tomatillo.jfif"
+        },
+        {
+            "id": 8,
+            "nombre": "Zanahoria",
+            "precio": "9.00",
+            "imagen": "img/zanahoria.jpg"
+        }
+    ]
+}
